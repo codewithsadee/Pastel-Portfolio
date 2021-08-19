@@ -58,7 +58,7 @@ nav ul li a{
     display: grid;
     justify-content: space-around;
     justify-items: center;
-    padding: 0 50px 50px 50px;
+    padding: 70px 50px 50px 50px;
     margin-bottom: 40px;;
 }
 
@@ -84,20 +84,15 @@ button{
     color: white;
 }
 
-.svg{
-    height: 100%;;
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-}
 
 .imggg{
     width: 500px;
     height: 400px;
 }
 
-
-
+object{
+    height: 500px;
+    width: 90%;
+    padding: 25px;
+}
 
