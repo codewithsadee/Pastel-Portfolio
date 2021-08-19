@@ -1,0 +1,141 @@
+@font-face {
+    font-family: alaa-anan;
+    src: url(Alaa_font-Regular.ttf);
+}
+
+/* 
+navbar pink "rgba(255, 232, 243, 1)"
+navbar text color "rgba(92, 114, 255, 1)"
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: alaa-anan;
+}
+
+/* navebar starts here */
+
+nav{
+    background-color: rgba(255, 232, 243, 1);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 5px 10px 5px 10px;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    color:rgba(92, 114, 255, 1);
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+.profile-img{
+    height: 80%;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 5px;
+    padding-bottom: 8px;
+    font-stretch: normal;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 50px;
+
+}
+
+nav ul li a{
+    color: rgba(92, 114, 255, 1);
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+a.active,a:hover{
+    background-color: white;
+    transition: .5s;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+}
+ 
+.menu-btn{
+    font-size: 30px;
+    color:rgba(92, 114, 255, 1);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#click{
+    display: none;
+}
+
+@media (max-width: 1250px){
+    .logo{
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    nav ul li a{
+        font-size: 40px;
+
+    }
+    nav ul li{
+        margin: 0 30px;
+    }
+}
+
+/* navebar ends here */
+
+/* about me page starts here */
+
+.about{
+    font-size: 70px;
+    color: rgba(237, 155, 204, 1);
+}
+
+p{
+    padding: 50px 70px 5px 70px;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 57px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    height: 110px;
+    width: 30px;
+    padding: 30px
+}
