@@ -16,14 +16,20 @@ body{
 /* navebar starts here */
 
 .logo{
-    width: 40%;
+    width: 50%;
     padding: 0;
     margin: 0;
+}
+
+.my-name{
+    font-size: 37px;
+    font-weight: lighter;
 }
 
 .menu-btn{
     display: block;
 }
+
 
 ul{
     position: fixed;
@@ -58,41 +64,65 @@ nav ul li a{
     display: grid;
     justify-content: space-around;
     justify-items: center;
-    padding: 70px 50px 50px 50px;
-    margin-bottom: 40px;;
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
 .about{
     display: grid;
     justify-content: space-evenly;
     justify-items: center;
+    padding: 0;
     
 }
 
+object{
+    width: 90%;
+    height: 90%;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    padding: 10px 30px 5px 30px;
+    font-size: 35px;
+    text-align: center
+    
+}
+
+h1{
+    font-size: 50px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 40px;
+    padding: 5px;
+}
+
+img{
+    height: 25px;
+    width: 25px;
+}
+
+.icons{
+    padding: 10px;
+    height: 50px;
+}
 
 button{
-    height: 40px;
-    width: 100px;
-    padding: 0;
-    line-height: 1px;
-    align-items: center;
-    background-color: rgba(165, 177, 253, 1);
-    border-radius: 25px;
-    border: none;
-    font-family: alaa-anan;
-    font-size: 40px;
-    color: white;
+    margin: 5px;
 }
 
-
-.imggg{
-    width: 500px;
-    height: 400px;
+@media (min-width: 517px){
+    .logo{
+        width: 35%;
+    }
 }
 
-object{
-    height: 500px;
-    width: 90%;
-    padding: 25px;
+@media (min-width: 720px){
+    .logo{
+        width: 25%;
+    }
 }
 
