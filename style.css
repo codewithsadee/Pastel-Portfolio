@@ -19,6 +19,7 @@ navbar text color "rgba(92, 114, 255, 1)"
 
 body{
     font-family: alaa-anan;
+    height: auto;
 }
 
 
@@ -32,6 +33,9 @@ nav{
     justify-content: space-between;
     justify-items: center;
     padding: 5px 10px 5px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .logo{
@@ -67,12 +71,14 @@ h2{
 nav ul{
     float: right;
     margin-right: 10px;
+    align-items: center;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 70px;
     margin: 0 50px;
+    align-items: center;
 
 }
 
@@ -80,6 +86,7 @@ nav ul li a{
     color: rgba(92, 114, 255, 1);
     font-size: 50px;
     text-transform: uppercase;
+    align-items: center;
 
 }
 
@@ -153,9 +160,20 @@ h1{
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
-    height: 110px;
-    width: 30px;
+    align-items: center;
+    height: auto;
+    width: auto;
     padding: 30px
+}
+
+i{
+    padding: 10px;
+}
+
+.icon{
+    padding: 5px;
+    height: 80px;
+    width: 65px;
 }
 
 img{
@@ -187,6 +205,7 @@ button{
 
 .obj-skill{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
@@ -273,13 +292,13 @@ button{
     align-items: top;
     width: 100%;
     height: 100%;
-    padding: 0;
+    padding: 40px 60px 40px 10px;
     margin: 0;
 
 }
 
 .proimg{
-    width: 60%;
+    width: 57%;
     height: 70%;
     padding: 0;
     margin: 0;
@@ -373,8 +392,22 @@ button{
     justify-items: center;
     padding: 10px;
     margin-bottom: 40px;
-
 }
+
+#blog h1{
+    color: rgba(92, 114, 255, 1);
+}
+
+.blog-cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    padding: 40px 10px 0 60px;
+}
+
 
 /* blog page ends here */
 
@@ -386,14 +419,21 @@ button{
     justify-items: center;
     padding: 10px;
     margin-bottom: 40px;
+    color: rgba(92, 114, 255, 1);
 }
 
+a{
+    font-size: 50px;
+    line-height: 80px;
+    color: rgba(92, 114, 255, 1);
 
+}
 
-
-
-
-
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

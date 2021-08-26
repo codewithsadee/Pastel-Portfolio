@@ -30,11 +30,11 @@
                 </label>
 
                 <ul>
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li><a href="#">SKILLS</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT ME</a></li>
+                    <li><a href="#about-me">ABOUT ME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact-me">CONTACT ME</a></li>
                 </ul>
             </nav>      
         </section>
@@ -49,8 +49,15 @@
                 <p>A programming student and a self taught developer</p>
 
                 <div class="icons">
-                    <img src="img/Github.png">
-                    <img src="img/twitter.png">
+                    <a href="https://github.com/cyb3r-champ">
+                        <img src="img/Github.png" class="icon">
+                    </a>
+
+                    <a href="https://mobile.twitter.com/Lilo11702532">
+                        <img src="img/twitter.png" class="icon">
+                    </a>
+
+                    <a href="https://bio.link/alaaanan"><i class="fas fa-angle-double-right"></i></a>
                 </div>
                 
                 <button>RESUME</button>  
@@ -158,23 +165,30 @@
 
             <h1>Blog</h1>
 
-            <div>
+            <div class="blog-cont">
                 
-                <object type="image/svg+xml" data="img/about-animated svg-cropped.svg">
+                <object class="proimg" type="image/svg+xml" data="img/about-animated svg-cropped.svg">
                     <img src="img/about-animated svg-cropped.svg" >
                 </object>
 
-                <a href="#">Link to my blog on hashnode and dev</a>
-
-                <div>
-                    <iframe></iframe>
-                    <iframe></iframe>
-                    <iframe></iframe>
-                </div>
-
-                <button></button>
+                <div class="project-image">
+                    <div class="pro-img-cont">
+                    <img src="/img/capture_20210805002137628.bmp" class="pro">
+                    <div class="overlay overlay--blur ">
+                        <h2>MORE INFO</h2>
+                    </div>
+                    </div>
+                    <div class="pro-img-cont">
+                        <img src="/img/capture_20210805002137628.bmp" class="pro">
+                        <div class="overlay overlay--blur ">
+                            <h2>MORE INFO</h2>
+                        </div>
+                        </div>
+                    <button onclick="window.location.href='https://hashnode.com/@AlaaAnan'" class="pro-btn">MORE</button>
+                    </div>
 
             </div>
+            
         </section>
 
         <section id="contact-me">
@@ -184,19 +198,40 @@
             <h2>SOCIAL MEDIA</h2>
 
             <div class="icons">
-                <img src="img/Github.png">
-                <img src="img/Repl it.png">
-                <img src="img/twitter.png">
-                <img src="img/Buy me coffee.png">
-                <img src="img/Instagram.png">
-                <img src="img/Tik Tok.png">
-                <img src="img/Lindedin.png">
+                <a href="https://github.com/cyb3r-champ">
+                    <img src="img/Github.png" class="icon">
+                </a>
+
+                <a href="https://replit.com/@lilo2525">
+                    <img src="img/Repl it.png" class="icon">
+                </a>
+
+                <a href="https://mobile.twitter.com/Lilo11702532">
+                    <img src="img/twitter.png" class="icon">
+                </a>
+
+                <a href="https://www.buymeacoffee.com/Alaaanan">
+                    <img src="img/Buy me coffee.png" class="icon">
+                </a>
+                
+                <a href="https://www.instagram.com/Codewid_ailo/">
+                    <img src="img/Instagram.png" class="icon">
+                </a>
+
+                <a href="https://www.tiktok.com/@codewid_ailo">
+                    <img src="img/Tik Tok.png" class="icon">
+                </a>
+
+                <a href="https://www.linkedin.com/in/alaa-anan-0b4590214/">
+                    <img src="img/Lindedin.png" class="icon">
+                </a>
+                
             </div>
 
             <h2>EMAIL</h2>
 
-            <div>
-                <img src="img/Mail.png">
+            <div class="mail">
+                <img src="img/Mail.png" class="icon">
                 <a href="mailto: alaa.anan255@gmail.com">Send Email</a>
             </div>
         </section>
