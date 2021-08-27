@@ -55,6 +55,7 @@ nav{
     margin: 5px;
 }
 
+
 .my-name{
     font-weight: lighter;
     font-size: 70px;
@@ -163,7 +164,7 @@ h1{
     align-items: center;
     height: auto;
     width: auto;
-    padding: 30px
+    padding: 60px
 }
 
 i{
