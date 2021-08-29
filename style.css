@@ -35,6 +35,8 @@ nav{
     padding: 5px 10px 5px 10px;
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     z-index: 2;
 }
 
@@ -123,6 +125,7 @@ a.active,a:hover{
     justify-items: center;
     padding: 10px;
     margin-bottom: 40px;
+    margin-top: 80px;
 }
 
 object{
@@ -174,7 +177,7 @@ i{
 .icon{
     padding: 5px;
     height: 80px;
-    width: 65px;
+    width: 78px;
 }
 
 img{
