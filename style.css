@@ -441,6 +441,106 @@ a{
 
 
 
+/* the start of the project detail page */
+
+#project-detail-page{
+    display: grid;
+
+    height: 100%;
+    width: 100%;
+}
+
+.img-tech{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.img-tech h2{
+    font-size: 90px;
+    color: rgba(92, 114, 255, 1);
+}
+
+.img-tech ul li{
+    font-size: 70px;
+    padding: 5px 10px 5px 50px;
+    letter-spacing: 5px;
+    color: rgba(237, 155, 204, 1);
+
+}
+
+.tec{
+    display: grid;
+    justify-content: left;
+    justify-items: left;
+    padding:0;
+    margin: 0;
+    
+}
+
+.iconss{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 30px
+}
+
+
+.iconn{
+    padding: 0px;
+    height: 60px;
+    width: 58px;
+}
+
+
+.project-img{
+    height: 90%;
+    width: 60%;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(85, 83, 83, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+Header h1{
+    margin: 120px 100px 80px 100px;
+    display: flex;
+    justify-content: center;
+    color: rgba(92, 114, 255, 1);
+
+}
+
+Header h2{
+    color: rgba(237, 155, 204, 1);
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+article{
+    padding: 100px;
+}
+
+article h2{
+    color: rgba(92, 114, 255, 1);
+    font-size: 90px;
+}
+
+article p{
+    font-size: 70px;
+}
+
+article img{
+    display: none;
+}
+
 
 @media (max-width: 1285px){
     .logo{
