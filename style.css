@@ -324,6 +324,12 @@ button{
     z-index: 1;
 }
 
+/* Removed default margin padding */
+.pro-img-cont > a {
+    margin: 0;
+    padding: 0;
+}
+
 .pro{
     height: 100%;
     width: 100%;
@@ -350,6 +356,9 @@ button{
     opacity: 0;
     transition: opacity 0.25s;
     font-size: 60px;
+
+    /* FIXED */
+    pointer-events: none;
 }
 
 .overlay--blur {
@@ -358,15 +367,15 @@ button{
 
 .overlay > * {
     transform: translateY(20px);
-    transition: transform 0,25s;
+    transition: transform 0.25s;
 }
 
  
-.overlay:hover {
+.pro-img-cont:hover .overlay {
     opacity: 1;
 }
 
-.overlay:hover > * {
+.pro-img-cont:hover .overlay > * {
     transform: translateY(0);
 }
 
@@ -411,7 +420,6 @@ button{
     height: auto;
     padding: 40px 10px 0 60px;
 }
-
 
 /* blog page ends here */
 
